@@ -1,0 +1,72 @@
+body {
+  background: rgba(73,186,126,1);
+}
+
+form {
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.name, .email, .message {
+  background-color: rgba(73,186,126,0.7);
+  border: 1px solid #FFF;
+  opacity: 0.5;
+}
+
+.name {
+  width: 44%;
+  height: 44px;
+  display: inline-block;
+  position: relative;
+  margin: 6px;
+  margin-left: 27px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.email {
+  width: 44%;
+  height: 44px;
+  display: inline-block;
+  position: relative;
+  margin: 25px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.message {
+  display: block;
+  position: relative;
+  width: 93%;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: auto;
+  padding: 5px;
+}
+
+.button {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-transform: uppercase;
+  background-color: white;
+  color: rgba(73,186,126,1);
+  font-size: 12px;
+  border: hidden;
+}
+input::-webkit-input-placeholder {
+  color: #FFF;
+}
+textarea::-webkit-input-placeholder {
+  color: #FFF;
+}
